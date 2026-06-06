@@ -37,7 +37,6 @@ By using the **PyTorch C++ API (`libtorch`)** and direct memory mapping via `tor
 ## 🛠️ Usage & Verification
 
 Run the built-in benchmark script to verify correctness and measure the speedup on your machine:
-
     ```
     python benchmark.py
     ```
