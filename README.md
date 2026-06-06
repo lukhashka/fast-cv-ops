@@ -23,14 +23,13 @@ By using the **PyTorch C++ API (`libtorch`)** and direct memory mapping via `tor
    cd Deeply```
 
 2. Activate your virtual environment and install dependencies:
-   source venv/bin/activate
-   pip install torch
+   ```source venv/bin/activate
+   pip install torch```
 
 3. Compile the C++ extension locally:
-   python setup_csrc.py build_ext --inplace
+   ```python setup_csrc.py build_ext --inplace```
 
 ## 🛠️ Usage & Verification
 
 Run the built-in benchmark script to verify correctness and measure the speedup on your machine:
-
-python benchmark.py
+    ```python benchmark.py```
